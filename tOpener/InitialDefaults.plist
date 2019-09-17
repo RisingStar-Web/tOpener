@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>JavaScript</key>
+	<true/>
+	<key>GetFileNamed</key>
+	<string>index.html</string>
+	<key>CreateDirNameText</key>
+	<string>ftp://orgfree.com1</string>
+	<key>CreateDirURLText</key>
+	<string>ftp.slavamax.com</string>
+	<key>GetURLText</key>
+	<string>https://www.slavamax.com/index.html</string>
+	<key>ListURLText</key>
+	<string>ftp://ftp1.freebsd.org/pub/FreeBSD/</string>
+	<key>Password</key>
+	<string>111</string>
+	<key>PutURLText</key>
+	<string>ftp.yoursite.com</string>
+	<key>URLGetURLText</key>
+	<string>ftp.yoursite.com</string>
+	<key>Username</key>
+	<string>example</string>
+	<key>CurrentFileName</key>
+	<string>~index.html</string>
+	<key>PasswordGet</key>
+	<string>111</string>
+	<key>UsernameGet</key>
+	<string>example</string>
+</dict>
+</plist>
