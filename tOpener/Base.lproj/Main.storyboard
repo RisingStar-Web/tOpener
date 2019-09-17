@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -49,30 +50,35 @@ Don’t be trapped by dogma — which is living with the results of other people
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Vqs-bq-8qH"/>
                                     <barButtonItem systemItem="save" id="fQk-he-Iwy">
+                                        <color key="tintColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="refreshButtonPressed:" destination="ykV-3Q-t0F" id="7lR-Gi-JOj"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Gra-O5-Uxk"/>
                                     <barButtonItem systemItem="organize" id="ZZK-Fd-pal">
+                                        <color key="tintColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="currentFileNameButtonPressed:" destination="ykV-3Q-t0F" id="xv4-sw-kwl"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="0th-tt-2ln"/>
                                     <barButtonItem title="▽" id="B8L-Bl-ZoF">
+                                        <color key="tintColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="omM-bd-6X2" kind="presentation" identifier="downloadSegue" id="Vx7-ys-zlx"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="LBa-y1-GHd"/>
                                     <barButtonItem title="△" id="TZB-xC-haF">
+                                        <color key="tintColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="yEv-bN-Ogf" kind="presentation" identifier="uploadSegue" id="yMO-VE-nzz"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="cPX-Nn-L25"/>
                                     <barButtonItem title="🌐" id="Ohr-tE-uGN">
+                                        <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="seeInBroweserPressed:" destination="ykV-3Q-t0F" id="Yzt-09-zP9"/>
                                             <segue destination="oAH-Dt-ZPr" kind="presentation" identifier="seeWebView" id="UR6-Pr-seM"/>
@@ -80,18 +86,21 @@ Don’t be trapped by dogma — which is living with the results of other people
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="h4U-Qo-QeD"/>
                                     <barButtonItem title="▷" id="u60-cf-LBY">
+                                        <color key="tintColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="redoButtonPressed:" destination="ykV-3Q-t0F" id="irW-Rn-4FV"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="8XC-ba-wjF"/>
                                     <barButtonItem title="◁" id="5JY-2d-t9r">
+                                        <color key="tintColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="undoButtonPressed:" destination="ykV-3Q-t0F" id="nFg-qn-JEF"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="E8h-yY-zf7"/>
                                     <barButtonItem title="@" style="plain" id="zfo-uX-6lS">
+                                        <color key="tintColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="3gf-ja-Qze" kind="presentation" identifier="infoSegue" id="zkN-Ar-lMA"/>
                                         </connections>
@@ -102,7 +111,7 @@ Don’t be trapped by dogma — which is living with the results of other people
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4DE-Cp-EOj">
                                 <rect key="frame" x="0.0" y="671" width="414" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <color key="textColor" red="0.26666666666666666" green="0.56862745098039214" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -143,9 +152,9 @@ Don’t be trapped by dogma — which is living with the results of other people
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="f7I-On-Gc4" userLabel="1">
-                                <rect key="frame" x="10" y="30" width="394" height="660"/>
+                                <rect key="frame" x="10" y="30" width="394" height="660.66666666666663"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">   Buttons:
+                                <string key="text">   Buttons:
   
   Save  – save changes in file;
   Organize  – files manegement;
@@ -168,9 +177,8 @@ _______________
 _______________  
                    
   Contact: tOpener@slavamax.com                           
-  www.slavamax.com</mutableString>
+  www.slavamax.com</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="0.2901960784" green="0.67843137249999996" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <fontDescription key="fontDescription" type="system" pointSize="41"/>
@@ -181,24 +189,28 @@ _______________
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Tan-ov-1eS"/>
                                     <barButtonItem title="Rate" id="59k-aI-ECm">
+                                        <color key="tintColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="ratePressed:" destination="3gf-ja-Qze" id="VWI-KL-h0e"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="n4S-Ug-sYc"/>
                                     <barButtonItem systemItem="done" id="7FX-CY-nls">
+                                        <color key="tintColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="donePressed:" destination="3gf-ja-Qze" id="lWJ-MB-tWM"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="hWU-z6-KSq"/>
                                     <barButtonItem title="Site" id="yiL-8R-r6u">
+                                        <color key="tintColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="sitePressed:" destination="3gf-ja-Qze" id="mGw-9N-58y"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="OAK-Zm-2b1"/>
                                 </items>
+                                <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -237,7 +249,7 @@ _______________
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Eze-ki-89v">
-                                                    <rect key="frame" x="197" y="2.6666666666666661" width="20" height="20"/>
+                                                    <rect key="frame" x="197" y="3" width="20" height="20"/>
                                                 </activityIndicatorView>
                                             </subviews>
                                             <constraints>
@@ -256,7 +268,7 @@ _______________
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fh0-7Z-t6f" userLabel="done button">
                                                     <rect key="frame" x="19" y="0.0" width="376" height="44"/>
                                                     <state key="normal" title="Done">
-                                                        <color key="titleColor" red="0.2901960784" green="0.67843137249999996" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -310,7 +322,7 @@ _______________
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="https://www.slavamax.com/books.html" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ym9-9F-SfH">
-                                                    <rect key="frame" x="8" y="1" width="398" height="41.666666666666664"/>
+                                                    <rect key="frame" x="8" y="1" width="398" height="42"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -342,7 +354,7 @@ _______________
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXL-eg-VWI">
                                                     <rect key="frame" x="19" y="0.0" width="376" height="44"/>
                                                     <state key="normal" title="LOAD">
-                                                        <color key="titleColor" red="0.2901960784" green="0.67843137249999996" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -352,7 +364,7 @@ _______________
                                                             <real key="value" value="14"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                            <color key="value" red="0.2901960784" green="0.67843137249999996" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="value" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
@@ -404,7 +416,7 @@ _______________
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="File:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgZ-Fr-3GO">
-                                                    <rect key="frame" x="8" y="1" width="86" height="41.666666666666664"/>
+                                                    <rect key="frame" x="8" y="1" width="86" height="42"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="86" id="AZ8-xe-Cby"/>
                                                     </constraints>
@@ -441,7 +453,7 @@ _______________
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Host:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hp-93-CNZ">
-                                                    <rect key="frame" x="8" y="1" width="86" height="41.666666666666664"/>
+                                                    <rect key="frame" x="8" y="1" width="86" height="42"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="86" id="W41-Po-uZu"/>
                                                     </constraints>
@@ -478,7 +490,7 @@ _______________
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPV-aj-5os">
-                                                    <rect key="frame" x="8" y="1" width="86" height="41.666666666666664"/>
+                                                    <rect key="frame" x="8" y="1" width="86" height="42"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="86" id="KRD-Gt-PIR"/>
                                                     </constraints>
@@ -487,7 +499,7 @@ _______________
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BhO-cf-CMx">
-                                                    <rect key="frame" x="95" y="0.0" width="310" height="43.666666666666664"/>
+                                                    <rect key="frame" x="95" y="0.0" width="310" height="44"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -557,9 +569,9 @@ _______________
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqE-Cu-avG">
-                                                    <rect key="frame" x="19" y="0.0" width="376" height="43.666666666666664"/>
+                                                    <rect key="frame" x="19" y="0.0" width="376" height="44"/>
                                                     <state key="normal" title="GET">
-                                                        <color key="titleColor" red="0.2901960784" green="0.67843137249999996" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleColor" red="0.0" green="0.14433013759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -638,7 +650,7 @@ _______________
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="WoC-Yf-pkZ">
-                                                    <rect key="frame" x="197" y="2.6666666666666661" width="20" height="20"/>
+                                                    <rect key="frame" x="197" y="3" width="20" height="20"/>
                                                 </activityIndicatorView>
                                             </subviews>
                                             <constraints>
@@ -741,7 +753,7 @@ _______________
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Host:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6Z-ax-44A">
-                                                    <rect key="frame" x="8" y="1" width="86" height="41.666666666666664"/>
+                                                    <rect key="frame" x="8" y="1" width="86" height="42"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="86" id="t1c-hZ-yQI"/>
                                                     </constraints>
@@ -778,7 +790,7 @@ _______________
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXc-ag-Czu">
-                                                    <rect key="frame" x="8" y="1" width="86" height="41.666666666666664"/>
+                                                    <rect key="frame" x="8" y="1" width="86" height="42"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="86" id="RZL-6j-NVq"/>
                                                     </constraints>
@@ -787,7 +799,7 @@ _______________
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JXT-QO-hdz">
-                                                    <rect key="frame" x="95" y="0.0" width="310" height="43.666666666666664"/>
+                                                    <rect key="frame" x="95" y="0.0" width="310" height="44"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -1004,7 +1016,7 @@ _______________
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OFF" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gu-40-Vsp">
-                                                    <rect key="frame" x="79.666666666666686" y="15.666666666666664" width="86.000000000000014" height="20"/>
+                                                    <rect key="frame" x="79.666666666666671" y="15.666666666666664" width="86.000000000000014" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="86" id="Vei-AU-tT1"/>
                                                     </constraints>

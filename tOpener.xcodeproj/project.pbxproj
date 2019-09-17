@@ -28,6 +28,7 @@
 		23FACDC720A1A1B6000FC842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FACDC520A1A1B6000FC842 /* Main.storyboard */; };
 		23FACDC920A1A1B8000FC842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FACDC820A1A1B8000FC842 /* Assets.xcassets */; };
 		23FACDCC20A1A1B8000FC842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FACDCA20A1A1B8000FC842 /* LaunchScreen.storyboard */; };
+		5F8B0AC623310B6A00A1E70E /* bk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F8B0AC523310B6900A1E70E /* bk.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		23FACDC820A1A1B8000FC842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23FACDCB20A1A1B8000FC842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23FACDCD20A1A1B8000FC842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8B0AC523310B6900A1E70E /* bk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bk.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		23FACDBC20A1A1B6000FC842 /* tOpener */ = {
 			isa = PBXGroup;
 			children = (
+				5F8B0AC523310B6900A1E70E /* bk.jpg */,
 				23A69F1820A1DFF500CB4A1A /* FTPUpload.swift */,
 				23A69F1C20A1DFF500CB4A1A /* FTPDownload.swift */,
 				23A69F1620A1DFF400CB4A1A /* DownloadTableViewController.swift */,
@@ -177,6 +180,7 @@
 				23D89FDA20ACB8C40005EDD4 /* table.html in Resources */,
 				23FACDC920A1A1B8000FC842 /* Assets.xcassets in Resources */,
 				23FACDC720A1A1B6000FC842 /* Main.storyboard in Resources */,
+				5F8B0AC623310B6A00A1E70E /* bk.jpg in Resources */,
 				23D89FDD20ACB8C40005EDD4 /* InitialDefaults.plist in Resources */,
 				23D89FD420ACB8A20005EDD4 /* _NewFile.txt in Resources */,
 			);
